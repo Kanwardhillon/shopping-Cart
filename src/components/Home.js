@@ -1,5 +1,6 @@
 import React from 'react'
 import { CartState } from '../context/Context'
+import Filters from './Filters';
 import SingleProduct from './SingleProduct';
 import './styles.css'
 
