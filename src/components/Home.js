@@ -6,7 +6,7 @@ import './styles.css'
 
 const Home = () => {
 
-  const { state: {products } } = CartState();
+  const { state: { products } } = CartState();
 
   return (
     <div className='home'>
