@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { Button, Col, Form, FormControl, Image, ListGroup, Row } from 'react-bootstrap'
+import { Button, Col, Form, Image, ListGroup, Row } from 'react-bootstrap'
 import { AiFillDelete } from 'react-icons/ai'
 import { CartState } from '../context/Context'
 import Rating from './Rating'
-import SingleProduct from './SingleProduct'
 
 const Cart = () => {
 
